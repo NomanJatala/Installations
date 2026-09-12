@@ -13,29 +13,43 @@ Benefits:
 - Easier project management
 - Professional development practice
 
----
+
 
 ## 1. Check Python Installation
 
-```bash
+
 python --version
-```
-
-
-
-```bash
 python3 --version
-
 
 ## Common Commands
 
-| Task | Command |
-|--------|---------|
-| Create venv | `python -m venv venv` |
-| Activate (Windows) | `venv\Scripts\activate` |
-| Activate (PowerShell) | `.\venv\Scripts\Activate.ps1` |
+| Action | Command |
+|----------|----------|
+| Create Virtual Environment | `python -m venv venv` |
+| Activate (Windows CMD) | `venv\Scripts\activate` |
+| Activate (Windows PowerShell) | `.\venv\Scripts\Activate.ps1` |
 | Activate (Linux/macOS) | `source venv/bin/activate` |
-| Install package | `pip install package_name` |
-| Save dependencies | `pip freeze > requirements.txt` |
-| Install requirements | `pip install -r requirements.txt` |
-| Deactivate | `deactivate` |
+| Install Package | `pip install package_name` |
+| View Installed Packages | `pip list` |
+| Save Dependencies | `pip freeze > requirements.txt` |
+| Install Dependencies | `pip install -r requirements.txt` |
+| Deactivate Environment | `deactivate` |
+| Delete Virtual Environment | Delete the `venv` folder |
+
+### Example Workflow
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+venv\Scripts\activate
+
+# Install packages
+pip install requests
+
+# Save dependencies
+pip freeze > requirements.txt
+
+# Exit virtual environment
+deactivate
+```
