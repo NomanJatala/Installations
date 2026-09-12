@@ -21,7 +21,7 @@ Benefits:
 python --version
 ```
 
-or
+
 
 ```bash
 python3 --version
