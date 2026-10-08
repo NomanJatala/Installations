@@ -15,12 +15,13 @@ Benefits:
 
 
 
-## 1. Check Python Installation
+## 1. Check Python Installation 
 
 
 python --version
 python3 --version
-
+## If stop execution of making virtual enviroment then:
+<code>Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass</code>
 ## Common Commands
 
 | Action | Command |
